@@ -1,0 +1,48 @@
+/*
+Theme Name: Bazien Child Theme
+Theme URI: http://themes4.net
+Description: This is a child theme for Bazien.
+Author: Dzung Nova
+Author URI: http://themes4.net/
+Template: bazien
+Version: 1.0
+*/
+
+/****************************************************************/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/****************************************************************/
+/*.desc-qty.button-qty, .inc-qty.button-qty {
+  background:none !important;
+ 
+}*/
+.woocommerce-page .site-header {
+  border-bottom: 1px solid #ebebeb;
+}
+.content-area {
+  padding: 30px 0 0;
+}
+.large-centered .page-title {
+  line-height: 1em;
+}
+#page_wrapper.sticky_header .content-area, #page_wrapper.transparent_header .content-area {
+  margin-top: 144px !important;
+}
+@media screen and (max-width:760px) {
+#page_wrapper.sticky_header .content-area, #page_wrapper.transparent_header .content-area {
+  margin-top: -25px !important;
+}
+}
+@media screen and (max-width:1024px) {	
+#page_wrapper.sticky_header .content-area, #page_wrapper.transparent_header .content-area {
+  margin-top: 5px !important;
+}
+}
+
+
+
+
+
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
